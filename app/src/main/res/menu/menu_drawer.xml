@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="HardcodedText">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/ic_baseline_alternate_email_24"
+            android:title="Daftar Makanan" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/ic_baseline_alternate_email_24"
+            android:title="Daftar Minuman" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_baseline_alternate_email_24"
+            android:title="Daftar Cemilan" />
+        <item
+            android:id="@+id/item4"
+            android:icon="@drawable/ic_baseline_alternate_email_24"
+            android:title="Daftar Polisi" />
+    </group>
+
+    <item android:title="Komunikasi">
+        <menu>
+            <item
+                android:id="@+id/manis1"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                android:title="Pengaturan" />
+            <item
+                android:id="@+id/manis2"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                android:title="Bantuan" />
+        </menu>
+    </item>
+
+</menu>
